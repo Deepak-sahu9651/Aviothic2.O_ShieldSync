@@ -1,0 +1,23 @@
+﻿<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>PhishGuard</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div id="app">
+    <h3>PhishGuard</h3>
+    <div id="currentUrl">Loading current tab...</div>
+    <div id="result">--</div>
+    <button id="checkBtn">Check this page</button>
+    <hr/>
+    <h4>Report suspicious URL</h4>
+    <input id="reportUrl" placeholder="URL (optional)" style="width:100%"/>
+    <textarea id="reportReason" placeholder="Reason (optional)" style="width:100%;height:60px"></textarea>
+    <button id="reportBtn">Send Report</button>
+    <div id="status"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

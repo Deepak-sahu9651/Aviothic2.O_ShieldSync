@@ -1,0 +1,6 @@
+﻿url,label
+http://example.com,legit
+https://google.com,legit
+https://secure-paypal-login.com,phishing
+http://mybank-update-info.net,phishing
+http://verify-account-security.co,phishing

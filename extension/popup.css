@@ -1,0 +1,5 @@
+﻿body{font-family: Arial, sans-serif; width:320px; padding:10px;}
+h3{margin:0 0 8px 0;}
+#result{margin:8px 0; font-weight:600;}
+button{margin-top:6px; padding:6px 8px; cursor:pointer;}
+#status{margin-top:8px; font-size:0.9em;}
